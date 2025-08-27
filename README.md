@@ -54,6 +54,7 @@ blog/
 - Dynamic locals for page titles and descriptions
 - Author section and sample posts on homepage
 - MongoDB Post model for blog posts (`server/models/post.js`)
+- Pagination support on the homepage (query param `?page=2`)
 - Ready for full MongoDB integration (see dependencies)
 
 ## 🛠️ Scripts
