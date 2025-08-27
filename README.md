@@ -53,7 +53,8 @@ blog/
 - `/about` page with EJS rendering
 - Dynamic locals for page titles and descriptions
 - Author section and sample posts on homepage
-- Ready for MongoDB integration (see dependencies)
+- MongoDB Post model for blog posts (`server/models/post.js`)
+- Ready for full MongoDB integration (see dependencies)
 
 ## 🛠️ Scripts
 
@@ -65,7 +66,7 @@ blog/
 - express
 - ejs
 - express-ejs-layouts
-- mongoose
+- mongoose (with Post schema)
 - dotenv
 - express-session
 - connect-mongo

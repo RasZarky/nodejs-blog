@@ -4,7 +4,11 @@ const express = require('express');
 const app = express();
 const expressLayouts = require('express-ejs-layouts');
 
+const connectDB = require('./server/config/db');
+
 const PORT = process.env.PORT || 5000;
+
+connectDB();
 
 app.use(express.static('public'));
 
