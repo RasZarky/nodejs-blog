@@ -24,9 +24,11 @@ blog/
 ## ✨ Features
 
 - 🗂️ Modular Express routing
-- 🎨 EJS templating
+- 🎨 EJS templating with dynamic locals
 - 📦 Static file serving
 - 🌱 Easy to extend
+- 📄 About page (`/about` route)
+- 🧩 Modern dependencies: MongoDB, JWT, sessions, and more
 
 ## 🚀 Getting Started
 
@@ -46,10 +48,31 @@ blog/
 4. **Visit:**
    Open your browser and go to [http://localhost:5000](http://localhost:5000)
 
+## 🆕 New Features
+
+- `/about` page with EJS rendering
+- Dynamic locals for page titles and descriptions
+- Author section and sample posts on homepage
+- Ready for MongoDB integration (see dependencies)
+
 ## 🛠️ Scripts
 
 - `npm start` — Start the server
 - `npm run dev` — Start the server with nodemon (if configured)
+
+## 📦 Main Dependencies
+
+- express
+- ejs
+- express-ejs-layouts
+- mongoose
+- dotenv
+- express-session
+- connect-mongo
+- jsonwebtoken
+- bcrypt
+- method-override
+- cookie-parser
 
 ## 📄 License
 
