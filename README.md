@@ -48,13 +48,15 @@ blog/
 4. **Visit:**
    Open your browser and go to [http://localhost:5000](http://localhost:5000)
 
-## 🆕 New Features
+## 🆕 New Features & Fixes
 
 - `/about` page with EJS rendering
 - Dynamic locals for page titles and descriptions
 - Author section and sample posts on homepage
 - MongoDB Post model for blog posts (`server/models/post.js`)
 - Pagination support on the homepage (query param `?page=2`)
+- Search bar UI/UX: click the search button to show/hide the search bar (see `public/js/script.js` and header partial)
+- Bug fixes for search bar functionality and template variables
 - Ready for full MongoDB integration (see dependencies)
 
 ## 🛠️ Scripts
