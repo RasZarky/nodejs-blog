@@ -56,6 +56,7 @@ blog/
 - MongoDB Post model for blog posts (`server/models/post.js`)
 - Pagination support on the homepage (query param `?page=2`)
 - Search bar UI/UX: click the search button to show/hide the search bar (see `public/js/script.js` and header partial)
+- Admin panel route at `/admin` with its own layout and header
 - Bug fixes for search bar functionality and template variables
 - Ready for full MongoDB integration (see dependencies)
 

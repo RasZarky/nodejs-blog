@@ -20,6 +20,7 @@ app.set('view engine', 'ejs');
 
 
 app.use('/', require('./server/routes/main'));
+app.use('/admin', require('./server/routes/admin'));
 
 app.listen(PORT, () => {
   console.log(`App is running on http://localhost:${PORT}`);
